@@ -1,0 +1,19 @@
+torch>=2.2
+torchvision>=0.17
+monai>=1.3
+nibabel>=5.0
+numpy
+scipy
+pandas
+scikit-learn
+pyyaml
+matplotlib
+opencv-python-headless
+tqdm
+pytest
+timm>=1.0
+huggingface_hub>=0.24
+transformers>=4.40      # v5 needs torch>=2.5; v4.x works with older torch
+openpyxl
+streamlit
+# nnunetv2>=2.5   # optional: only for scripts/09_hf_segment.py
